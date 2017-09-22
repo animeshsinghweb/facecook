@@ -1,0 +1,465 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #e9ebee;
+}
+
+a {
+    color: #3b5998;
+}
+
+.navbar {
+    background: #3b5998 !important;
+    height: 66px !important;
+    padding-top: 7px !important;
+    border-bottom: 1.3px solid #333;
+}
+
+#bs-example-navbar-collapse-1 {
+    background: #3b5999 !important;
+}
+
+.navbar a {
+    color: #fff !important;
+}
+
+.btn-search {
+    margin-left: -2em;
+}
+
+.input-search {
+    width: 520px !important;
+    margin-left: -2.2rem !important;
+    font-weight: 450 !important;
+    color: #333;
+}
+
+.nav-icons a {
+    color: #17233d !important;
+}
+
+.nav-icons span {
+    display: none;
+}
+
+.settings-drop li a {
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.facecook-logo {
+    margin-top: -1px !important;
+}
+
+.nav-dp {
+    width: 32px;
+    border: 1px solid #333;
+}
+
+.dp-name {
+    margin-top: -5px !important;
+}
+
+.dp-name span {
+    font-weight: bold;
+}
+
+.jumbotron {
+    height: 520px;
+    background: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url('../images/timeline.jpg') fixed !important;
+    background-position: center;
+    background-attachment: fixed;
+    border-bottom: 2px solid #333;
+}
+
+.dp {
+    position: absolute;
+    margin-top: 24.2em;
+    display: inline-block;
+}
+
+.dp-img {
+    width: 160px;
+    display: inline;
+    margin-top: 3.2rem;
+    border: 1px solid #333;
+}
+
+.dp-img:hover {
+    border: 4px solid #3b5998;
+    cursor: pointer;
+}
+
+.dp-profile-name {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2.3em;
+    bottom: -1.5rem;
+    margin-left: 2.7rem;
+    padding: 2px;
+}
+
+.dp-profile-name:hover,
+.dp-profile-name:focus {
+    text-decoration: none;
+    color: #eee;
+}
+
+.dp-profile-name i {
+    font-size: 2rem;
+}
+
+.f-buttons {
+    position: absolute;
+    top: 470px;
+    right: 3em;
+}
+
+.btn-f-o {
+    display: none;
+}
+
+.timeline-nav {
+    background: #fff !important;
+    margin-top: -2.1em;
+    padding: 1.42rem;
+    border-bottom: 1px solid #eee;
+}
+
+.timeline-nav .nav {
+    margin-left: 26%;
+}
+
+.row .container-fluid {
+    padding: 4.5em 10em !important;
+}
+
+.panel {
+    border: 1px solid #878383;
+    /*padding: 1px !important;*/
+}
+
+.panel.my-info {
+    /*margin-left: 4.5em;*/
+    color: #333;
+}
+
+.panel-heading h4 {
+    color: #000;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.panel-heading h4 i.pull-right {
+    color: #878383;
+}
+
+.my-info-img .col-sm-4,
+.my-info-img .col-xs-4,
+.my-info-img .col-sm-6,
+.my-info-img .col-xs-6 {
+    margin: 0 !important;
+    padding: 2px 4px !important;
+}
+
+.my-info-img img {
+    margin: 0 !important;
+    width: 100%;
+    /*padding: 3px 4px !important;*/
+    border: 1px solid #333;
+    opacity: 0.89;
+    /*height: 104px !important;*/
+}
+
+.my-friends .my-info-img img {
+    height: 104px !important;
+}
+
+.my-info-img img:hover {
+    opacity: 1;
+    border: 2px solid #3b5998;
+}
+
+
+/* Optimising for tablet devices */
+
+@media screen and (min-width: 768px) and (max-width: 1320px) {
+    .input-search {
+        width: 240px !important;
+    }
+    .dp-name {
+        margin-top: -5px !important;
+    }
+    .timeline-nav .nav {
+        margin-left: 30%;
+    }
+    .my-friends .my-info-img img {
+        height: 184px !important;
+    }
+}
+
+
+/* Posts */
+
+.post {
+    background: #fff;
+    padding: 1em;
+    border: 1px solid rgba(33, 33, 33, .33);
+}
+
+.post-content p {
+    margin-top: 1.2em;
+}
+
+.post-content img {
+    width: 100%;
+    cursor: pointer;
+    padding: .4em;
+}
+
+.post-content img:hover {
+    opacity: .8;
+}
+
+img.media-object {
+    width: 48px;
+}
+
+.fc-react {
+    background: #fff;
+    margin-bottom: .4em;
+}
+
+.fc-react .btn {
+    border: none;
+    padding: 1em;
+    margin: .2em .5em;
+}
+
+.f-tu {
+    background: #3b5998;
+    color: #fff;
+    border-radius: 50%;
+    padding: .55em;
+}
+
+textarea {
+    width: 98%;
+    overflow: hidden;
+    padding: .8em;
+    display: inline-block;
+}
+
+.fc-engage {
+    background: #eee;
+    padding: 1em;
+}
+
+.fc-engage .well {
+    background: none;
+    border: none;
+}
+
+.textarea-camera {
+    margin-left: -4em;
+    z-index: 22;
+}
+
+
+/* Posts Reactions */
+
+i.posts {
+    content: '';
+    display: inline-block;
+    height: 14px;
+    margin: 0 6px -3px 0;
+    width: 14px;
+}
+
+i.posts.like {
+    /* background-image: url(https://i.imgsafe.org/0616248.png); */
+    /* background-image: url(https://cdn1.iconfinder.com/data/icons/social-media-13/24/Like-128.png); */
+    background-image: url(../images/icons.png);
+    background-repeat: no-repeat;
+    background-position: -34px -284px;
+    /* background-size: 500px 488px; */
+    /* background-position: -277px -446px */
+}
+
+i.posts.comment {
+    /* background-image: url(https://i.imgsafe.org/0616248.png); */
+    background-image: url(../images/icons.png);
+    background-repeat: no-repeat;
+    /* background-size: 500px 488px; */
+    /* background-position: -262px -446px */
+    background-position: -34px -269px;
+}
+
+i.posts.share {
+    /* background-image: url(https://i.imgsafe.org/0616248.png); */
+    background-image: url(../images/icons.png);
+    background-repeat: no-repeat;
+    /* background-size: 500px 488px; */
+    /* background-position: -322px -446px; */
+    background-position: -15px -320px;
+}
+
+.emoji-reactions {
+    left: -14px;
+    position: absolute;
+    /*top: -50px;*/
+    z-index: 200;
+    background: #fff;
+    display: inline-block;
+    font-size: 0;
+    padding: 2px 10px;
+    text-align: left;
+    border-radius: 70px;
+    white-space: nowrap;
+    height: 49px;
+    box-shadow: 0 8px 2px -6px rgba(0, 0, 0, 0.29);
+    display: none;
+}
+
+.emoji-reactions span {
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    -webkit-backface-visibility: hidden;
+    cursor: pointer;
+    display: inline-block;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    transform: scale(1, 1) translateY(.0001px);
+    transform-origin: 50% 100%;
+    width: 48px;
+}
+
+.emoji-reactions span .reaction {
+    transform: scale(.8, .8) translate(0, 0);
+    transition: transform 200ms ease;
+}
+
+.reaction .react {
+    display: block;
+    height: 48px;
+    image-rendering: crisp-edges;
+    line-height: 1;
+    width: 48px;
+    background-image: url(https://i.imgsafe.org/c505d7a.png);
+    background-image: url(../images/reactions.png);
+    background-size: 48px 384px;
+}
+
+.react.like {
+    background-position: 0 -144px;
+}
+
+.react.love {
+    background-position: 0 -192px;
+}
+
+.react.haha {
+    background-position: 0 -96px;
+}
+
+.react.wow {
+    background-position: 0 -288px;
+}
+
+.react.sorry {
+    background-position: 0 -240px;
+}
+
+.react.anger {
+    background-position: 0 0;
+}
+
+.react.dislike {
+    background-position: 0 -144px;
+    transform: rotate(180deg);
+}
+
+.react.puzzle {
+    background-position: 0 -48px;
+    transform: rotate(-25deg);
+}
+
+.emoji-reactions span .text {
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: -28px;
+    transform: translateX(-50%);
+}
+
+.emoji-reactions span .text div {
+    background-color: rgba(0, 0, 0, .75);
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    max-width: 100%;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0 8px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: opacity 50ms ease;
+}
+
+.emoji-reactions span:hover .reaction {
+    transform: scale(1, 1) translate(0, -6px);
+}
+
+.emoji-reactions span:hover .text div {
+    opacity: 1;
+}
+
+
+/* Optimising for mobile devices */
+
+@media screen and (min-width: 200px) and (max-width: 768px) {
+    .navbar .navbar-left {
+        display: none !important;
+    }
+    .nav-icons span {
+        display: inline;
+        color: #eee;
+        font-weight: bold;
+    }
+    .settings-drop li a {
+        color: #eee !important;
+    }
+    .dp {
+        margin-top: 8em !important;
+        margin-left: 26%;
+    }
+    .dp a {
+        font-size: 2.2em;
+        margin-left: -0.68em !important;
+        margin-top: 0.12em !important;
+    }
+    .dp-img {
+        display: block;
+        width: 168px;
+    }
+    .f-buttons {
+        margin-top: -4em;
+        left: 36% !important;
+    }
+    .timeline-nav .nav {
+        margin-left: 5%;
+    }
+    .row .container-fluid {
+        padding: 1.5em 2em !important;
+    }
+    .my-friends .my-info-img img {
+        height: 100px !important;
+    }
+}
