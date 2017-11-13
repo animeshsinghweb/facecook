@@ -8,6 +8,10 @@ a {
     color: #3b5998;
 }
 
+.row {
+    margin-right: 0px;
+}
+
 .navbar {
     background: #3b5998 !important;
     height: 66px !important;
